@@ -1,0 +1,48 @@
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+} 
+
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
+}
+      
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+} 
+
+
+
+content {
+  background-color: lightblue;
+}
+
+
+
+.icon {
+    width: 80px;
+}
+
+
+
+
+
+content {
+    height: 200px;
+    max-width: 1600px;
+    background-color: powderblue;
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  
