@@ -1,0 +1,103 @@
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+} 
+
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
+}
+      
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+} 
+
+
+
+content {
+  background-color: lightblue;
+}
+
+
+
+.icon {
+    width: 80px;
+}
+
+
+
+
+
+content {
+    height: 200px;
+    max-width: 1600px;
+    background-color: powderblue;
+    text-align: center;
+    margin: 30px 0;
+  }
+
+
+  .home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+  }
+  .msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+  }
+  
+  
+  body {
+      background-color: #fcfbfb;
+      font-family: Raleway, Arial, sans-serif;
+      font-size: 22px;
+      margin: 0;
+      padding: 0;
+  }
+  h2 {
+      margin: 0;
+  }
+  
+  
+  nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+  }
+  
+  
+  .book, .join {
+      background-color: #d9c2a3;
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 15px 30px;
+      margin-top: 50px;
+  }
+  
+  .book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+  }
+  .card-img {
+    border: 10px solid #d9c2a3;
+  }
+  main section img {
+    box-sizing: border-box;
+  }
+  
