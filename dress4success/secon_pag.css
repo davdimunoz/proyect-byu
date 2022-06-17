@@ -1,0 +1,151 @@
+.fadeOut
+    {
+        -webkit-animation: fadeout 1s;
+           -moz-animation: fadeout 1s;
+            -ms-animation: fadeout 1s;
+             -o-animation: fadeout 1s;
+                animation: fadeout 1s;
+    }
+    .fadeIn
+    {
+        -webkit-animation: fadein 1s;
+           -moz-animation: fadein 1s;
+            -ms-animation: fadein 1s;
+             -o-animation: fadein 1s;
+                animation: fadein 1s;
+    }
+    @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes fadeout { from { opacity: 1; } to { opacity: 0; } }
+    @-moz-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+    @-moz-keyframes fadeout { from { opacity: 1; } to { opacity: 0; } }
+    @-webkit-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+    @-webkit-keyframes fadeout { from { opacity: 1; } to { opacity: 0; } }
+    @-ms-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+    @-ms-keyframes fadein { from { opacity: 1; } to { opacity: 0; } }
+    @-o-keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+    @-o-keyframes fadeout { from { opacity: 1; } to { opacity: 0; } }
+
+    #grid-background-container {
+        height: 100%;
+        background-color: #F5F5F5;
+    }
+
+    #horizontal-grid {
+        margin: 0;
+        -webkit-background-size: 24px 24px;
+        -moz-background-size: 24px 24px;
+        background-size: 24px 24px;
+        height: 100%;
+
+        background-image: linear-gradient(top, transparent 23px, #f5eae6 1px);
+        background-image: -webkit-linear-gradient(top, transparent 23px, #f5eae6 1px);
+        background-image: -moz-linear-gradient(top, transparent 23px, #f5eae6 1px);
+        background-image: -ms-linear-gradient(top, transparent 23px, #f5eae6 1px);
+        background-image: -o-linear-gradient(top, transparent 23px, #f5eae6 1px);
+    }
+
+    #vertical-grid {
+        background-size: 78px;
+        width: 916px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+        padding-top:168px;
+        background-image: linear-gradient(0deg, transparent 58px, #e7e7e7 58px, #e7e7e7 59px, transparent 59px, transparent 77px, #e7e7e7 77px, #e7e7e7 78px);
+        background-image: -webkit-linear-gradient(0deg, transparent 58px, #e7e7e7 58px, #e7e7e7 59px, transparent 59px, transparent 77px, #e7e7e7 77px, #e7e7e7 78px);
+        background-image: -moz-linear-gradient(0deg, transparent 58px, #e7e7e7 58px, #e7e7e7 59px, transparent 59px, transparent 77px, #e7e7e7 77px, #e7e7e7 78px);
+        background-image: -ms-linear-gradient(0deg, transparent 58px, #e7e7e7 58px, #e7e7e7 59px, transparent 59px, transparent 77px, #e7e7e7 77px, #e7e7e7 78px);
+        background-image: -o-linear-gradient(0deg, transparent 58px, #e7e7e7 58px, #e7e7e7 59px, transparent 59px, transparent 77px, #e7e7e7 77px, #e7e7e7 78px);
+
+        border-left: 1px solid #d0d0d0;
+        border-right: 1px solid #d0d0d0;
+        /*vertical grid container */
+    }
+
+    #loading-container {
+        font-family: "ff-tisa-sans-web-pro";
+        margin: auto;
+        background-color: white;
+        padding: 45px 38px 50px 38px;
+        max-width: 507px;
+        box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.14);
+        border-radius: 4px;
+    }
+
+    #loading-container h1 {
+        padding: 0px;
+        margin: 0;
+        font-weight: normal;
+        opacity: 0.8;
+        font-family: "crete-round";
+        font-size: 16px;
+        color: #c1c1c1;
+        margin-bottom: 16px;
+    }
+
+    #loading-container .loading-messages {
+        font-family: "ff-tisa-sans-web-pro";
+        font-weight: bold;
+        font-size: 24px;
+        height:40px;
+        color: #FD3A40;
+    }
+
+    .loading-messages span{
+        position: absolute;
+        opacity: 0;
+        -webkit-transform-origin: 10% 75%;
+        transform-origin: 10% 75%;
+        -webkit-animation: fadeInAndOut 12s linear infinite 0s;
+        -ms-animation: fadeInAndOut 12s linear infinite 0s;
+        animation: fadeInAndOut 12s linear infinite 0s;
+    }
+    .loading-messages span:nth-child(2) {
+        -webkit-animation-delay: 3s;
+        -ms-animation-delay: 3s;
+        animation-delay: 3s;
+    }
+    .loading-messages span:nth-child(3) {
+        -webkit-animation-delay: 6s;
+        -ms-animation-delay: 6s;
+        animation-delay: 6s;
+    }
+    .loading-messages span:nth-child(4) {
+        -webkit-animation-delay: 9s;
+        -ms-animation-delay: 9s;
+        animation-delay: 9s;
+    }
+
+    @-webkit-keyframes fadeInAndOut {
+        0% { opacity: 0; }
+        5% { opacity: 0; }
+        17% { opacity: 1;}
+        19% { opacity: 1;}
+        21% { opacity: 1;}
+        23% { opacity: 0;}
+        25% { opacity: 0;}
+        80% { opacity: 0; }
+        100% { opacity: 0; }
+    }
+    @-ms-keyframes fadeInAndOut {
+        0% { opacity: 0; }
+        5% { opacity: 0; }
+        17% { opacity: 1; }
+        19% { opacity: 1; }
+        21% { opacity: 1; }
+        23% { opacity: 0; }
+        25% { opacity: 0; }
+        80% { opacity: 0; }
+        100% { opacity: 0; }
+    }
+    @keyframes fadeInAndOut {
+        0% { opacity: 0; }
+        5% { opacity: 0; }
+        17% { opacity: 1;}
+        19% { opacity: 1;}
+        21% { opacity: 1;}
+        23% { opacity: 0;}
+        25% { opacity: 0;}
+        80% { opacity: 0; }
+        100% { opacity: 0; }
+    }
