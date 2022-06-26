@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+    
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link type="text/css" rel="stylesheet" href="/wwr/styles/conta.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Be Smart 2.0</h1>
+      <h2>believe in yourself, that you can do it</h2>
+      <h2>it's never too late but time is short and fast there is no time to waste, it's time to start</h2>
+      <!-- In the header above, add the name or your site, your name and class number. For example if you are in section 3 you would put WDD 130.03 -->
+    </header>
+    <main>
+
+        <script>
+            // get the feedback div element so we can do something with it.
+            const feedbackElement = document.getElementById('feedback');
+            // get the form so we can read what was entered in it.
+            const formElement = document.forms[0];
+            // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+            formElement.addEventListener('submit', function(e) {
+                // stop the form from doing the default action.
+                e.preventDefault();
+                // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+                // make the feedback element visible.
+                feedbackElement.style.display = "block";
+                // add a class to move everything down so our message doesn't cover it.
+                document.body.classList.toggle('moveDown');
+            });
+        </script>
+
+      <!-- ------------------------Steps 2-3------------------------------ -->
+    
+
+      <hr>
+      <h2>Branding</h2>
+      <h3>Website Logo</h3>
+      <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
+      <img src="/dress4success/images/Sin título.png" alt="Logo smart">
+      <hr>
+      <h2>
+        Style Guide
+      </h2>
+
+      <!-- ------------------------Steps 4-8------------------------------ -->
+      <div id="feedback"></div>
+    
+
+     
+
+      <!-- ------------------------Step 10------------------------------ -->
+
+      <h3>
+        Navigation
+      </h3>
+      <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. --> 
+      <nav>
+        <a href="/dress4success/site-plan.html">Home</a>
+        <a href="/dress4success/secon page.html">Page2</a>
+        <a href="#">Page3</a>
+      </nav>
+      <hr>
+      <h2>
+        Site Map
+      </h2>
+      <div class="sitemap">
+        <div class="sm-home">
+          Home
+        </div>
+        <div class="sm-page2">
+          [Page2] <!-- change this -->
+        </div>
+        <div class="sm-page3">
+          [Page3]  <!-- change this -->
+        </div>
+
+        <div class="top">
+          &nbsp;
+        </div>
+        <div class="left">
+          &nbsp;
+        </div>
+        <div class="right">
+          &nbsp;
+        </div>
+
+      </div>
+
+      <!-- --------Content Section -------------- -->
+      <hr>
+      <h2>
+        Content
+      </h2>
+      <h3>Home page</h3>
+      <p>
+        Main Fork of the Salmon River, Idaho
+       Nestled deep in the Frank Church Wilderness of No Return winds the Salmon river. The Salmon was given the nickname long ago 
+       as the River of No Return by the people living near it because of the number of folks that came to visit and fell so in love with the 
+        rugged beauty of the river that they never left.
+      </p>
+      <p>Images for the Home page</p>
+        <img src="/dress4success/images/w05_ice_image_graphic.png" alt="image for homepage">
+        <img src="/dress4success/images/flower.jpg" alt="image for homepage">
+
+      </ul>
+      <h3>[Page 2]</h3>
+      <p>
+        Desolation and Gray Canyon, Utah
+       Winding through canyons in central Utah, in some of the most desolate land anywhere, the Green river flows towards the mighty 
+       Colorado river and the sea. High grey stone cliffs, beautiful desert scenery, and great rapids have made this run famous. This 84-mile trip runs 
+       from from Sand Wash to Swaseys Rapid (just outside Green River Utah) and boasts outstanding scenery, interesting geologic formations, evidence of prehistoric
+       and historic human activity, and great whitewater opportunities.
+      </p>
+      <p>Images for the Page 2</p>
+        <img src="/dress4success/images/rafting21_600.png" alt="image for page">
+        <img src="/dress4success/images/rafting22_600 (1).jpg" alt="image for page">
+
+      </ul>
+      <h3>[Page 3]</h3>
+      <p>
+        Grand Canyon, Arizona
+This is the grand daddy of all canyons and the grand daddy of all river trips. You will never forget your visit to the Grand Canyon.
+
+Grand Canyon river rafting combines world-class whitewater with breathtaking scenery to make one truly unforgettable river experience. The canyon is filled not only with exhilarating whitewater rapids, but with side canyons and ancient indian ruins accessible only by river.
+      </p>
+      <p>Images for the Page 3</p>
+        <img src="images/rafting22_600.jpg" alt="image for page3">
+        <img src="images/rafting31_600.jpg" alt="image for page3">
+
+      </ul>
+      <hr>
+      <h2>
+        Wireframes
+      </h2>
+      <p>
+        Create three wireframes for your site. One for each page and list them here</p>
+
+      <h3>Home</h3>
+      <p>         
+        [Any additional details about home that the wireframe does not make clear]
+      </p>
+      <img src="#" alt="home page wireframe">
+
+      <h3>[Page 2]</h3>
+      <p>         
+        [Any additional details about page 2 that the wireframe does not make clear]
+      </p>
+      <img src="#" alt="page 2 wireframe">
+
+      <h3>[Page 3]</h3>
+      <p>         
+        [Any additional details about page 3 that the wireframe does not make clear]
+      </p>
+      <img src="#" alt="page 3 wireframe">
+    </main>
+  </body>
+
+</html>
