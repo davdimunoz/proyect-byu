@@ -251,12 +251,58 @@ grid-column: 2 / 4;
 grid-row: 2 / 3;
 }
 
+                                 /*missing*/
+.feedback{
+    margin: center;
+    grid-column: center;
+    grid-row: center;
+    }
+    
+    .rapids-card {
+    margin: 200px 0;
+    grid-column: 8 / 10 ;
+    grid-row: 2 / 3;
+    }
+    
+    .rivers-card {
+    margin: 200px 0;
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+
+    }
+                                   /*missing*/
+
+
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
 #hero, .home-grid {
 display: block;
 height: auto;
 }
+/*working on*/
+.riversfonn {
+    display: block;
+    height: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav, footer {
 flex-direction: column;
 }
